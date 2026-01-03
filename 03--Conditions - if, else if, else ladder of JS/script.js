@@ -49,3 +49,21 @@ let c = (a > b) ? (a - b) : (b - a);
 // else{
 //         let c = b - a;
 // }
+
+
+
+console.log("5" == 5);   // true
+// "5" (string) is converted to number 5
+// then 5 == 5 → true
+
+console.log("5" === 5); // false
+// === does not perform type conversion
+// string !== number, so result is false
+
+
+
+0 == false        // true  (false is converted to 0)
+0 === false       // false (number !== boolean)
+
+null == undefined // true  (special JS rule) (JS treats both as "empty")
+null === undefined// false (different types, no conversion)
