@@ -29,7 +29,7 @@ let q = 2; // number type
 let r = 3.4556; // number type 
 const s = true; // boolean type
 let x = undefined; // undefined type
-let y = null; // object type
+let y = null; // null value (typeof shows "object" — JS bug)
 
 console.log(p ,q ,r ,s ,x ,y)
 console.log(typeof p ,typeof q ,typeof r ,typeof s ,typeof x ,typeof y)
