@@ -48,7 +48,7 @@ for (const key in obj) {
 // for of loop !
 
 for (const v of "Aryan") {
-    console.log(v); // it type A -> n every single string
+    console.log(v); // prints each character of the string one by one
 }
 
 
@@ -65,8 +65,8 @@ while (i < 10) {
 
 // do-while loop !
 // In do-while loop first type then check condition and repeat
-let i = 0;
+let j = 0;
 do {
-    console.log(i);
-    i++;
-} while (i < 6);
+    console.log(j);
+    j++;
+} while (j < 6);
