@@ -1,12 +1,12 @@
 "use strict";
 
-console.log("Hey I am a tutorial on loop")
+console.log("Hey I am a tutorial on loop");
 
 let a = 1;
 
-console.log(a)
-console.log(a+1)
-console.log(a+2)
+console.log(a);
+console.log(a+1);
+console.log(a+2);
 
 
 // for loop !
@@ -48,7 +48,7 @@ for (const key in obj) {
 // for of loop !
 
 for (const v of "Aryan") {
-    console.log(v) // it type A -> n every single string
+    console.log(v); // it type A -> n every single string
 }
 
 
@@ -57,7 +57,7 @@ for (const v of "Aryan") {
 // In while loop first check value condintion then type and repeat
 let i = 0;
 while (i < 10) {
-    console.log(i)
+    console.log(i);
     i++;
 }
 
@@ -67,6 +67,6 @@ while (i < 10) {
 // In do-while loop first type then check condition and repeat
 let i = 0;
 do {
-    console.log(i)
+    console.log(i);
     i++;
 } while (i < 6);
