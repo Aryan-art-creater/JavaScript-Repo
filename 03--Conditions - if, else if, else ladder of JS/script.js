@@ -12,28 +12,29 @@ let age = 21;
 // console.log(age % grace) // modulus
 
 
-// && means both conditions 
-// || means one of both conditions
-// ! means logical not
+// && -> both conditions must be true
+// || -> at least one conditions is true
+// !  -> logical not
 // == equal
 // != not equal
 
 
-if (age >= 18) {
-    console.log("you can drive")
-}
+// == allows type conversion
+// === checks value and type
 
-else if (age == 0) {
-    console.log("Are you kidding me")
-}
-
-else if (age == 1) {
-    console.log("Are you again kidding me")
-}
-
+if (age < 0) {
+  console.log("Invalid age");
+} 
+else if (age === 0) {
+  console.log("Are you kidding me?");
+} 
+else if (age < 18) {
+  console.log("You cannot drive");
+} 
 else {
-    console.log("you cannot drive")
+  console.log("You can drive");
 }
+
 
 
 
