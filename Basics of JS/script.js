@@ -5,9 +5,9 @@ console.log("Code is also running...")
 console.log("Code is looking like wow...")
 
 
-// var is also like using Let 
-var a = prompt("Enter your number")
-var isTrue = confirm("Are you sure you want to leave this page and blast your computer ")
+// var is old version of let 
+let a = prompt("Enter your number")
+let isTrue = confirm("Are you sure you want to leave this page and blast your computer ")
 
 if(isTrue){
     console.log("computer is blasting ")
