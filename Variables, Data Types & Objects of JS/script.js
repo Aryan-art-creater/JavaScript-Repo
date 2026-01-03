@@ -35,9 +35,9 @@ console.log(p ,q ,r ,s ,x ,y)
 console.log(typeof p ,typeof q ,typeof r ,typeof s ,typeof x ,typeof y)
 
 let o = {
-    "name": "Aryan",
-    "Job_Code": 5000,
-    "is_handsome": true
+    name: "Aryan",
+    JobCode: 5000,
+    isHandsome: true
 }
 
 
