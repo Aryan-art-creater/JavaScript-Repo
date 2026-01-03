@@ -36,22 +36,6 @@ else {
 }
 
 
-
-
-a = 6;
-b = 8;
-let c = (a > b) ? (a - b) : (b - a);
-
-// translates to:
-// if(a>b){
-//     let c = a - b;
-// }
-// else{
-//         let c = b - a;
-// }
-
-
-
 console.log("5" == 5);   // true
 // "5" (string) is converted to number 5
 // then 5 == 5 → true
@@ -67,3 +51,18 @@ console.log("5" === 5); // false
 
 null == undefined // true  (special JS rule) (JS treats both as "empty")
 null === undefined// false (different types, no conversion)
+
+
+
+
+a = 6;
+b = 8;
+let c = (a > b) ? (a - b) : (b - a);
+
+// translates to:
+// if(a>b){
+//     let c = a - b;
+// }
+// else{
+//         let c = b - a;
+// }
