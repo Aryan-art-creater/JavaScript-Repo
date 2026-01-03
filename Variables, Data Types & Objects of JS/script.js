@@ -16,7 +16,7 @@ console.log(typeof a , typeof b , typeof c) // Type of means a is number, string
 
 // In {a=90} means a specific value of a 
 {
-    let a = 90;
+    let a = 90; // block-scoped variable
     console.log(a)
 }
 
