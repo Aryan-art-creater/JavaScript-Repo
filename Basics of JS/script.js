@@ -5,7 +5,7 @@ console.log("Code is also running...")
 console.log("Code is looking like wow...")
 
 
-// var is old version of let 
+// var is function-scoped, let is block-scoped (avoid var in modern JS)
 let a = Number(prompt("Enter your number"))
 let isTrue = confirm("Are you sure you want to leave this page and blast your computer ")
 
