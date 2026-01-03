@@ -11,8 +11,10 @@ console.log( a + b + 7 )
 console.log( a + b + 7 + c)
 console.log( a + b + 7 , c , _a)
 
-console.log(typeof a , typeof b , typeof c)
+console.log(typeof a , typeof b , typeof c) // Type of means a is number, string, null many more.
 
+
+// In {a=90} means a specific value of a 
 {
     let a = 90;
     console.log(a)
@@ -22,24 +24,25 @@ console.log(typeof a , typeof b , typeof c)
 // a1 = a1 + 1
 // Not Allowed because a1 is const.
 
-let p = "Aryan";
-let q = 2;
-let r = 3.4556;
-const s = true;
-let x = undefined;
-let y = null; 
+let p = "Aryan"; // String type 
+let q = 2; // number type 
+let r = 3.4556; // number type 
+const s = true; // boolean type
+let x = undefined; // undefined type
+let y = null; // object type
 
 console.log(p ,q ,r ,s ,x ,y)
 console.log(typeof p ,typeof q ,typeof r ,typeof s ,typeof x ,typeof y)
 
 let o = {
     "name": "Aryan",
-    "Job Code": 5000,
+    "Job_Code": 5000,
     "is_handsome": true
 }
 
+
 console.log(o)
-o.salary = "100 Cr";
+o.salary = "100 Cr"; // It add Salary in Object (o)
 console.log(o)
-o.salary = "500 Cr";
+o.salary = "500 Cr"; // It change the value of salary
 console.log(o)
