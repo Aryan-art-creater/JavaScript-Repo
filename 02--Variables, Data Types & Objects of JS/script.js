@@ -1,3 +1,5 @@
+"use strict";
+
 console.log("Hey this is tutorial 55")
 
 let a = 5;
