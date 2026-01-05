@@ -12,8 +12,8 @@ console.log(a[4]);
 console.log(a[5]); // undefined
 console.log(a.length);
 
-let real_name = "Aryan";
-let friend = "Aditya";
+const real_name = "Aryan";
+const friend = "Aditya";
 
 console.log("The MC of this anime is " + real_name + " and MF is " + friend );
 console.log(`The MC of this anime is ${real_name} and MF is ${friend}`);
