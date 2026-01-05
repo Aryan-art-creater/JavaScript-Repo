@@ -18,7 +18,7 @@ const friend = "Aditya";
 console.log("The MC of this anime is " + real_name + " and MF is " + friend );
 console.log(`The MC of this anime is ${real_name} and MF is ${friend}`);
 
-const b = "Naruto"
+const b = "Naruto";
 
 console.log(b.toUpperCase());
 console.log(b.toLowerCase());
