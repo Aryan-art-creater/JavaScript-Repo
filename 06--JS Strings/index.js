@@ -26,4 +26,4 @@ console.log(b.length);
 console.log(b.slice(1, 5));
 console.log(b.slice(1));
 console.log(b.replace("arut" , "****"));
-console.log(b.concat(a, " Hinata" , "Sanjana"));
+console.log(`${b} ${a} Hinata Sanjana`);
