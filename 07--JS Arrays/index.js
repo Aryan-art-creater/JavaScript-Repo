@@ -5,7 +5,7 @@ let a = [1,2,3,4,5];
 
 
 a[0] = 566;
-console.log(a, typeof a);
+console.log(a, typeof a); // arrays are objects in JS
 console.log(a.length);
 console.log(a[0]);
 console.log(a[2]);
