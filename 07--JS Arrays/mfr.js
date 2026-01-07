@@ -13,7 +13,6 @@ let newarr = arr.map((e)=>{
 })
 console.log(newarr);
 
-
 const greaterthanseven = (e)=>{
     if(e>7){
         return true;
@@ -22,14 +21,12 @@ const greaterthanseven = (e)=>{
 }
 console.log(arr.filter(greaterthanseven));
 
-
 let arr2 = [1,2,3,4,5];
 
 const red = (a, b)=>{
     return a+b;
 }
 console.log(arr2.reduce(red));
-
 
 // Array.from("aryan");
 console.log(Array.from("aryan"));
