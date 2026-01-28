@@ -1,6 +1,5 @@
 "use strict";
 
-
 console.log(document.querySelector(".container").innerHTML);
 console.log(document.querySelector(".container").textContent);
 console.log(document.querySelector(".container").outerHTML);
@@ -8,7 +7,6 @@ console.log(document.querySelector(".container").innerText);
 console.log(document.querySelector(".box").innerHTML); // Take only first Div
 console.log(document.querySelector(".box").outerHTML);
 console.log(document.querySelector(".box").innerText);
-
 
 console.log(document.querySelector(".container").tagName);
 console.log(document.querySelector(".container").nodeName);
